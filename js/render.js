@@ -23,12 +23,12 @@ const nav = document.querySelector("nav");
 
 // City animation - "paralax-like" movement
 const cityImg = new Image();
-cityImg.src = "./sources/img/city_dark.png";
+cityImg.src = "../sources/img/city_dark.png";
 // source: https://opengameart.org/content/city-parallax-pixel-art
 
 // Player animation - sprites
 const sprite = new Image();
-sprite.src = "./sources/img/playerRun.png";
+sprite.src = "../sources/img/playerRun.png";
 // source: https://deadrevolver.itch.io/pixel-prototype-player-sprites
 
 
