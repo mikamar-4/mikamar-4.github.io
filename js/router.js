@@ -23,8 +23,10 @@ export function navigateTo(path) {
   }
 
   // Set the URL for the history
-  document.title = "BeerRunner - " + path;
-  history.pushState({}, "", path);
+  if (window.location.pathname !== path) {
+    document.title = "BeerRunner - " + path;
+    history.pushState({}, "", path);
+  }
   router();
 }
 
