@@ -380,8 +380,6 @@ tr:hover th, tr:hover td {
   transform: scale(1.05);
 }
 
-td
-
 /* Pagination */
 #pagination {
   flex-grow: 1;
